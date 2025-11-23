@@ -1,0 +1,15 @@
+# Workflow vazio - apenas para criar mudança visível
+# O deploy real é feito pelo Vercel
+
+name: Deploy Status
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check deployment
+        run: echo "Deploy via Vercel"
+

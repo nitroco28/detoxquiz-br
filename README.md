@@ -1,16 +1,46 @@
-# React + Vite
+# 🧪 Termômetro da Inflamação - Detox Funnel Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação React moderna para quiz interativo de avaliação de inflamação corporal, focada em conversão e experiência do usuário.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** - Framework JavaScript
+- **Vite** - Build tool e dev server
+- **Tailwind CSS** - Estilização utility-first
+- **Framer Motion** - Animações suaves
+- **Lucide React** - Ícones modernos
 
-## React Compiler
+## 📋 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Quiz interativo com feedback educativo
+- Cálculo personalizado de nível de inflamação
+- Visualização de resultados detalhados
+- Protocolo detox personalizado baseado nas respostas
+- Design responsivo e mobile-first
+- Animações e transições suaves
 
-## Expanding the ESLint configuration
+## 🛠️ Instalação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+## 🏃 Desenvolvimento
+
+```bash
+npm run dev
+```
+
+## 📦 Build para Produção
+
+```bash
+npm run build
+```
+
+## 🌐 Deploy
+
+O projeto está configurado para deploy no Vercel. Veja o arquivo `DEPLOY.md` para instruções detalhadas.
+
+## 📝 Licença
+
+Projeto privado - Todos os direitos reservados.
